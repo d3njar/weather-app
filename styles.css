@@ -23,3 +23,28 @@ body {
         rgba(230, 224 113, 1) 100%
     );
 }
+
+.weather {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    font-size: 1.5rem;
+}
+
+#location {
+    font-size: 3rem;
+    font-weight: 800;
+    font-style: italic;
+}
+.desc {
+    font-size: 1.25rem;
+    text-transform: capitalize;
+}
+
+.circle {
+    background-color: black;
+    border-radius: 50px;
+    height: 15px;
+    width: 15px;
+    margin: 0 15px;
+}
