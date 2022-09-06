@@ -1,7 +1,5 @@
-Weather App that's work in progress!
+A functional Weather App written in JavaScript.
 
-error: data.main is not defined?
+[ To use this code add your own API-Key by going to https://openweathermap.org/ ]
 
-dosent funtion when allowing permission to accsess location data.
-
-some typo maybe?
+This weather app showcases the temperature and the sunrise / sunset based on your location!
