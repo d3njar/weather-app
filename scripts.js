@@ -1,9 +1,9 @@
-const api = "**********************";
+const api = "***************";
 
 const iconImg = document.getElementById("weather-icon");
 const loc = document.querySelector("#location");
 const tempC = document.querySelector(".c");
-const tempF = document.querySelector("f");
+const tempF = document.querySelector(".f");
 const desc = document.querySelector(".desc");
 const sunriseDOM = document.querySelector(".sunrise");
 const sunsetDOM = document.querySelector(".sunset");
@@ -15,7 +15,7 @@ window.addEventListener("load", () => {
         navigator.geolocation.getCurrentPosition((position) => {
             long = position.coords.longitude;
             lat = position.coords.latitude;
-            const base = `https://api.openweathermap.org/data/2.5/weatherlat=${lat}&lon=${long}&appid=${api}&units=metric`;
+            const base = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=${api}&units=metric`;
 
             fetch(base)
                 .then((response) => {
